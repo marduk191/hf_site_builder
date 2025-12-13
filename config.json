@@ -1,0 +1,61 @@
+{
+  "site": {
+    "title": "My AI Model Hub",
+    "description": "Explore my collection of AI models and datasets",
+    "author": "Your Name",
+    "theme_color": "#4F46E5",
+    "header_image": null,
+    "social_links": {
+      "github": "",
+      "twitter": "",
+      "linkedin": ""
+    }
+  },
+  "categories": [
+    {
+      "id": "nlp",
+      "name": "Natural Language Processing",
+      "icon": "💬",
+      "description": "Models for text understanding and generation"
+    },
+    {
+      "id": "vision",
+      "name": "Computer Vision",
+      "icon": "👁️",
+      "description": "Image and video processing models"
+    },
+    {
+      "id": "audio",
+      "name": "Audio Processing",
+      "icon": "🎵",
+      "description": "Speech and sound analysis models"
+    },
+    {
+      "id": "datasets",
+      "name": "Datasets",
+      "icon": "📊",
+      "description": "Curated datasets for training and evaluation"
+    }
+  ],
+  "models": [
+    {
+      "name": "Example Text Classifier",
+      "repo": "username/model-name",
+      "category": "nlp",
+      "description": "A fine-tuned model for text classification",
+      "tags": ["classification", "bert", "nlp"],
+      "demo_url": null,
+      "paper_url": null
+    }
+  ],
+  "datasets": [
+    {
+      "name": "Example Dataset",
+      "repo": "username/dataset-name",
+      "category": "datasets",
+      "description": "A curated dataset for specific tasks",
+      "tags": ["text", "classification"],
+      "size": "100K samples"
+    }
+  ]
+}
