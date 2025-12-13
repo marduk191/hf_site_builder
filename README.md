@@ -9,6 +9,7 @@ A modern, customizable website builder for Hugging Face Spaces to showcase your 
 - 🔗 **Direct Links**: Link to Hugging Face repos, demos, and papers
 - 🏷️ **Tags & Metadata**: Add tags, descriptions, and metadata to your items
 - 🛠️ **CLI Tool**: Easy-to-use command-line tool for managing your site
+- 🖥️ **GUI Tool**: User-friendly graphical interface for easy site management
 - 🌐 **Cross-Platform**: Built with Python and Gradio - works everywhere
 - 📱 **Responsive**: Looks great on desktop, tablet, and mobile
 
@@ -28,6 +29,14 @@ pip install -r requirements.txt
 ```
 
 ### 3. Configure Your Site
+
+**Option A: Use the GUI (Recommended for beginners)**
+
+```bash
+python builder_gui.py
+```
+
+**Option B: Edit config.json directly**
 
 Edit `config.json` to add your information:
 
@@ -183,6 +192,50 @@ python builder.py remove category nlp
 python builder.py validate
 ```
 
+## 🖥️ GUI Tool
+
+For those who prefer a graphical interface, we provide a tkinter-based GUI tool!
+
+### Launch the GUI
+
+```bash
+python builder_gui.py
+```
+
+### Features
+
+The GUI provides an intuitive interface with:
+
+- **📂 Site Info Tab**: Edit site title, description, author, theme color, and social links
+- **📁 Categories Tab**: View, add, and delete categories with a visual interface
+- **🤖 Models Tab**: Manage your models with easy-to-use forms
+- **📊 Datasets Tab**: Add and manage datasets visually
+- **👁️ Preview Tab**: Live JSON preview of your configuration
+- **✅ Validation**: Built-in configuration validation
+
+### Screenshots
+
+The GUI features:
+- Tabbed interface for easy navigation
+- Split-pane design showing existing items and add forms
+- Real-time configuration preview
+- Input validation and error messages
+- Confirmation dialogs for destructive actions
+
+### GUI vs CLI
+
+**Use the GUI when:**
+- You prefer visual interfaces
+- You're new to the tool
+- You want to see all your items at a glance
+- You're managing multiple items
+
+**Use the CLI when:**
+- You prefer command-line workflows
+- You're automating tasks
+- You're working on a server without a display
+- You're integrating with scripts
+
 ## 🎨 Customization
 
 ### Custom CSS
@@ -214,6 +267,7 @@ hf_site_builder/
 ├── app.py              # Main Gradio application
 ├── config.json         # Site configuration
 ├── builder.py          # CLI management tool
+├── builder_gui.py      # GUI management tool (tkinter)
 ├── requirements.txt    # Python dependencies
 ├── static/
 │   └── style.css      # Custom CSS styling
