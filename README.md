@@ -1,5 +1,7 @@
 # 🚀 HF Site Builder
 
+<img width="892" height="725" alt="image" src="https://github.com/user-attachments/assets/67e14520-572f-4e1b-840f-b45e5a4e2ccf" />
+
 A modern, customizable website builder for Hugging Face Spaces to showcase your AI models and datasets.
 
 ## ✨ Features
